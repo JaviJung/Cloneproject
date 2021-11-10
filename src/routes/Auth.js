@@ -74,7 +74,7 @@ const onSocialClick = async (event) => {
                     value = {password}
                     onChange = {onChange}
                 />
-                <input type = "submit" value = {newAccount ? "create Account" : "Log In"} />
+                <input type = "submit" value = {newAccount ? "Create Account" : "Log In"} />
                 {error}
             </form>
 
